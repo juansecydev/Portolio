@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JuanseCydev Portofolio</title>
-    <meta name="description" content="A portolfio template inspired by the Northern Lights, featuring a dark mode aesthetic and modern design elements.">
-    <meta property="og:title" content="Aurora Portfolio Template">
-    <meta property="og:description" content="A Northern Lights inspired portfolio template with dark mode aesthetic">
+    <title>JuanseCydev Portfolio</title>
+    <meta name="description" content="A personal portfolio inspired by the Northern Lights, with a dark style and modern design elements.">
+    <meta property="og:title" content="JuanseCydev Portfolio">
+    <meta property="og:description" content="A personal portfolio inspired by the Northern Lights, with a dark style and modern design elements.">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <!-- Tailwind CSS via CDN -->
@@ -33,7 +33,7 @@
                     <li><a href="#services" class="hover:text-aurora-green transition">Services</a></li>
                     <li><a href="#portfolio" class="hover:text-aurora-green transition">Projects</a></li>
                     <li><a href="#contact" class="hover:text-aurora-green transition">Contact</a></li>
-                    <li><a href="./index_es.html" class="hover:text-aurora-green transition">Spanish</a></li>
+                    <li><button type="button" data-language-toggle class="hover:text-aurora-green transition">Español</button></li>
                 </ul>
                 <!-- Mobile menu button -->
                 <button class="md:hidden" onclick="toggleMobileMenu()">
@@ -49,7 +49,7 @@
                 <a href="#services" class="block py-2 hover:text-aurora-green">Services</a>
                 <a href="#portfolio" class="block py-2 hover:text-aurora-green">Projects</a>
                 <a href="#contact" class="block py-2 hover:text-aurora-green">Contact</a>
-                <a href="./index_es.html" class="block py-2 hover:text-aurora-green">Spanish</a>
+                <button type="button" data-language-toggle class="block py-2 hover:text-aurora-green">Español</button>
             </div>
         </div>
     </nav>
@@ -443,6 +443,7 @@
         </div>
     </footer>
     <script src="resources/tailwind.config.js"></script>
+    <script src="resources/i18n.js"></script>
     <script src="resources/index.js"></script>
 </body>
 </html>
