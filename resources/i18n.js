@@ -69,6 +69,9 @@ const translations = {
   "Email": "Correo electrónico",
   "© 2026 JuanseCydev. All rights reserved.":
     "© 2026 JuanseCydev. Todos los derechos reservados.",
+  "Notes App": "Aplicación de notas",
+  "A personal local app to register notes and track them to learn Laravel.":
+    "Aplicación personal local para registrar notas y hacer seguimiento de ellas para aprender Laravel.",
 };
 
 const pageMetadata = {
